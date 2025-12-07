@@ -1,8 +1,9 @@
 # Weather App (Flask + Vite)
 
-Simple weather lookup that calls WeatherAPI through a Flask backend and shows results in a Vite/Vanilla JS frontend. Deployed backend/frontend live at:
-- Backend: `https://saimsweather.onrender.com`
-- Frontend: update `client/src/main.js` or `VITE_API_URL` to point there when building.
+Simple weather lookup that calls WeatherAPI through a Flask backend and shows results in a Vite/Vanilla JS frontend.
+
+Live preview (static site): `https://saimsweather.onrender.com`
+- Point your frontend fetches to your running backend (local 5050 or a deployed Web Service URL). Update `client/src/main.js` or set `VITE_API_URL` when building.
 
 ## Local setup
 
